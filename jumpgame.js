@@ -26,7 +26,8 @@ var canJump = function(nums) {
         /*
         At this point we will have scanned (n-1) indices, we have either returned false because
          we found out that we get stuck mid-way somewhere, OR, we have returned true because we had enough jumps to got last index.
-        // Since its impossible to reach end of for loop by scanning entire array but still not making a decision, we never end up at this statement.
+         Since its impossible to reach end of for loop by scanning entire array but still not making a decision, we never end up at this statement.
+         */
         return false;
-        */
+       
     }
